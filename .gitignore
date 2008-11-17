@@ -1,1 +1,7 @@
-sake.gemspec
+doc
+pkg
+tmp/*
+.DS_Store
+*.log
+*.swp
+*~
