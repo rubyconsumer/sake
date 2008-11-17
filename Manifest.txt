@@ -1,0 +1,16 @@
+README.txt
+LICENSE.txt
+Rakefile
+bin/sake
+bin/sake
+lib/sake.rb
+lib/sake/extensions/nil_class.rb
+lib/sake/extensions/string.rb
+lib/sake/extensions/rake/application.rb
+lib/sake/task_array.rb
+lib/sake/task_file.rb
+lib/sake/task.rb
+lib/sake/task.rb
+lib/sake/help.rb
+lib/sake/pastie.rb
+lib/sake/server.rb

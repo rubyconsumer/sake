@@ -1,9 +1,0 @@
-bin/sake
-lib/help.rb
-lib/pastie.rb
-lib/sake.rb
-lib/server.rb
-Manifest
-Rakefile
-README
-LICENSE
