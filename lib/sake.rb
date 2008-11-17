@@ -278,7 +278,8 @@ class Sake
   end
 
   def serve_tasks
-    require File.dirname(__FILE__) + '/server'
+    require 'sake/server'
+
     Server.start(@args)
   end
 
