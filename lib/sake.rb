@@ -20,6 +20,7 @@ rescue LoadError
 end
 
 require File.join(File.dirname(__FILE__), 'version')
+require File.join(File.dirname(__FILE__), 'tasks_array')
 require File.join(File.dirname(__FILE__), 'help')
 require File.join(File.dirname(__FILE__), 'pastie')
 
@@ -286,28 +287,6 @@ class Sake
   def run_rake
     import Sake::Store.path
     Rake.application.run
-  end
-
-  ##
-  # Lets us do:
-  #   tasks = TasksFile.parse('Rakefile').tasks
-  #   task  = tasks['db:remigrate']
-  class TasksArray < Array
-    ##
-    # Accepts a task name or index.
-    def [](name_or_index)
-      if name_or_index.is_a? String
-        detect { |task| task.name == name_or_index }
-      else
-        super
-      end
-    end
-
-    ##
-    # The source of all these tasks.
-    def to_ruby
-      map { |task| task.to_ruby }.join("\n")
-    end
   end
 
   ##
