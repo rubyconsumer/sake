@@ -74,13 +74,6 @@ require File.dirname(__FILE__) + '/pastie'
 #   $ sake -S -d
 #
 class Sake
-  module Version #:nodoc:
-    Major  = '1'
-    Minor  = '0'
-    Tweak  = '16'
-    String = [ Major, Minor, Tweak ].join('.')
-  end
-
   ##
   # The `application' class, this is basically the controller
   # which decides what to do then executes.
