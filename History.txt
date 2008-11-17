@@ -1,0 +1,5 @@
+=== 1.1.0 / 2008-11-16
+
+* Now actively maintained by Postmodern (postmodern.mod3 at gmail.com).
+* Epic refactoring complete.
+

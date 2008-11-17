@@ -1,5 +1,6 @@
 README.txt
 LICENSE.txt
+History.txt
 Rakefile
 bin/sake
 bin/sake
@@ -7,8 +8,8 @@ lib/sake.rb
 lib/sake/extensions/nil_class.rb
 lib/sake/extensions/string.rb
 lib/sake/extensions/rake/application.rb
-lib/sake/task_array.rb
-lib/sake/task_file.rb
+lib/sake/tasks_array.rb
+lib/sake/tasks_file.rb
 lib/sake/task.rb
 lib/sake/task.rb
 lib/sake/help.rb
