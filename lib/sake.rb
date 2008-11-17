@@ -8,6 +8,7 @@ require 'rubygems'
 require 'rake'
 require 'fileutils'
 require 'open-uri'
+
 begin
   gem 'ParseTree', '>=2.1.1'
   require 'parse_tree'
@@ -17,8 +18,10 @@ rescue LoadError
   puts "# Sake requires the ParseTree and ruby2ruby gems and Ruby >=1.8.6."
   exit
 end
-require File.dirname(__FILE__) + '/help'
-require File.dirname(__FILE__) + '/pastie'
+
+require File.join(File.dirname(__FILE__), 'version')
+require File.join(File.dirname(__FILE__), 'help')
+require File.join(File.dirname(__FILE__), 'pastie')
 
 ##
 # Show all Sake tasks (but no local Rake tasks), optionally only those matching a pattern.
