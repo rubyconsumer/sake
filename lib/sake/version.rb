@@ -1,8 +1,4 @@
 class Sake
-  module Version
-    Major  = '1'
-    Minor  = '0'
-    Tweak  = '16'
-    String = [ Major, Minor, Tweak ].join('.')
-  end
+  # Sake version
+  VERSION = '1.1.0'
 end

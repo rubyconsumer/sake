@@ -284,7 +284,7 @@ class Sake
   end
 
   def version
-    puts "sake, version #{Version::String}"
+    puts "sake, version #{VERSION}"
   end
 
   def run_rake

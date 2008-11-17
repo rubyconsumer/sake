@@ -5,7 +5,7 @@ require 'hoe'
 
 require 'lib/sake/version.rb'
 
-Hoe.new('sake', Sake::Version::String) do |p|
+Hoe.new('sake', Sake::VERSION) do |p|
   p.rubyforge_name = 'err'
   p.summary = "Sake tastes great and helps maintain system-level Rake files."
   p.description = "Sake tastes great and helps maintain system-level Rake files."
