@@ -6,7 +6,6 @@ bin/sake
 bin/sake
 lib/sake.rb
 lib/sake/extensions/nil_class.rb
-lib/sake/extensions/string.rb
 lib/sake/extensions/rake/application.rb
 lib/sake/tasks_array.rb
 lib/sake/tasks_file.rb

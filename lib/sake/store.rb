@@ -29,7 +29,7 @@ class Sake
       else
         File.join(File.expand_path('~'), '.sake')
       end
-      FileUtils.touch(path) unless path.is_file?
+      FileUtils.touch(path) unless File.file?(path)
       path
     end
 
