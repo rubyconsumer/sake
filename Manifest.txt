@@ -14,3 +14,5 @@ lib/sake/task.rb
 lib/sake/help.rb
 lib/sake/pastie.rb
 lib/sake/server.rb
+lib/sake/version.rb
+lib/sake/store.rb
