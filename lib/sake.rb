@@ -25,6 +25,8 @@ require 'sake/tasks_file'
 require 'sake/task'
 require 'sake/help'
 require 'sake/pastie'
+require 'sake/store'
+require 'sake/extensions/rake/application'
 
 ##
 # Show all Sake tasks (but no local Rake tasks), optionally only those matching a pattern.
