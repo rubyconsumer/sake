@@ -40,8 +40,8 @@ module Rake # :nodoc: all
     ##
     # Accept only one task, unlike Rake, to make passing arguments cleaner.
     alias_method :sake_original_collect_tasks, :collect_tasks
-    def collect_tasks
-      sake_original_collect_tasks
+    def collect_tasks(argv)
+      sake_original_collect_tasks(argv)
       @top_level_tasks = [@top_level_tasks.first]
     end
   end
